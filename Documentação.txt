@@ -1,0 +1,29 @@
+    Instalação do Cypress
+        - Pré-requisitos
+Node.js instalado no sistema.
+Editor de código instalado.
+        - Passos para instalar o Cypress
+Crie um novo diretório para o projeto Cypress.
+Abra o terminal no diretório criado.
+Execute o comando abaixo para inicializar um novo projeto npm:
+        npm init -y
+Instale o Cypress como uma dependência de desenvolvimento:
+        npm install cypress --save-dev
+
+
+    Configuração do Cypress
+        - Arquivos de configuração
+O Cypress cria uma estrutura de diretórios padrão.
+O arquivo de configuração principal é cypress.json.
+        - Estrutura de diretórios
+Os testes Cypress são organizados em cypress/integration.
+Os arquivos de suporte Cypress estão em cypress/support.
+
+
+    Execução do Código
+        - Passos para executar os testes
+Abra o terminal no diretório do projeto Cypress.
+Execute o comando para abrir o Cypress Test Runner:
+        npx cypress open
+Selecione o arquivo de teste desejado.
+O Cypress executará automaticamente os testes e exibirá os resultados.
